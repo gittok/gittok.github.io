@@ -1,0 +1,49 @@
+@font-face{
+  font-family: 'font_light';
+  src: url('font_light.ttf');
+}
+@font-face{
+  font-family: 'font_bold';
+  src: url('font_bold.ttf');
+}
+
+body {
+  background-color: black;
+}
+iframe {
+  width: 300px;
+  height: 500px;
+}
+.video {
+  margin: 0 auto;
+}
+.main {
+  width: 100%;
+}
+input {
+  background-color: #5C5C5C;
+  border: none;
+  color: white;
+  width: 200px;
+  height: 70px;
+}
+p {
+  color: white;
+  font-family: 'font_light';
+}
+h1 {
+  color: white;
+  font-family: 'font_bold';
+}
+h2 {
+  font-family: 'font_bold';
+  color: white;
+}
+.idontcare {
+  color: #383838;
+  font-size: 10px;
+}
+a {
+  color: white;
+  font-weight: bold;
+}
