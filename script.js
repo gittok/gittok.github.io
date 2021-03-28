@@ -1,5 +1,5 @@
 var req = new XMLHttpRequest();
-req.open("GET", "https://raw.githubusercontent.com/ezhzz/Tktk/main/videos.txt", false);
+req.open("GET", "https://raw.githubusercontent.com/gittok/gittok.github.io/main/videos.txt", false);
 req.send(null);
 
 videos = req.responseText.split(' ')
