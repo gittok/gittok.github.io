@@ -8,6 +8,9 @@ ok = 0
 function newvideo() {
   ok = Math.floor(Math.random() * videos.length);
   document.getElementById("sourceid").src=videos[ok];
+  document.getElementById("forcopy").innerText="Ссылка: https://gittok.github.io" + videos[ok];
+  document.getElementById("tg").innerText="Поделиться через Telegram";
+  document.getElementById("tg").href="https://t.me/share?url=gittok.github.io" + videos[ok];
 }
 
 let butt = document.getElementById('ok')
